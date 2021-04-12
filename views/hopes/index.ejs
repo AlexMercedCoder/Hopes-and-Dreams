@@ -8,6 +8,7 @@
     <%- include("../partials/header") %>
     <main>
       <h2 class="subtitle is-2">Hopes</h2>
+      <a href="/dashboard">DASHBOARD</a>
       <% for (hope of hopes) { %>
 
         <a href="/hopes/<%= hope._id %>"><h3><%= hope.text %></h3></a>
